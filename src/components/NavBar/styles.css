@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra el menu horizontalmente */
+}
+
+
+.navbar-menu li {
+    margin: 0 15px; 
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.navbar-menu a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 4px;
+}
